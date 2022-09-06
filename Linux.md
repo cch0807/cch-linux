@@ -1,0 +1,9 @@
+- 리눅스는 운영 체제(OS: Oerating System)
+- 다양한 배포판(distribution, distro)
+    - 공통점
+        - 리눅스 커널(Linux)
+        - GNU software
+    - 차이점
+        - 데스크탑 관리자(gnome, KDE, ...)
+        - 패키지 매니저(apt, yum, rpm, ...)
+        - 기본 파일 시스템 등등  
