@@ -1,3 +1,4 @@
+# 디렉토리 내용 조회/이동/확인
 ls
 # cd(change directory)
 cd practice
@@ -20,14 +21,3 @@ cd cch_linux
 # pwd
 
 # ls -al
-
-cat practice.txt
-head practice.txt # 기본이 10 line
-head practice.txt -n 3
-tail practice.txt
-tail practice.txt -n 3
-
-# head --help
-
-less practice.txt
-

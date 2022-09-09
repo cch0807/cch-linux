@@ -1,3 +1,5 @@
+# 파일 내용 조회
+
 cat practice.txt
 head practice.txt # 기본이 10 line
 head practice.txt -n 3
