@@ -37,3 +37,7 @@ cd practice
 
 # 압축 해제
 tar -zxf ../test.tar.gz 
+
+# 테스트 폴더 삭제
+
+rm -rf testdir/
