@@ -98,7 +98,11 @@
 
 - 파일 소유권
   - 파일의 소유권(ownership)
+  - ![jpg_1](./img/파일%20소유권.png)
 
 - 파일 권한
   - 파일 접근 권한(permission or mode)
-  - ![jpg_1](./img/file%20permission.png)
+  - ![jpg_1](./img/%ED%8C%8C%EC%9D%BC%20%EA%B6%8C%ED%95%9C.png)
+
+- 파일 권한 표기법
+  - ![jpg_1](./img/파일%20권한%20표기법.png)
