@@ -24,3 +24,35 @@ stat practice.txt
 
 # Modify: 파일의 컨텐츠를 변경한 시간
 # Change: 아이노드가 변경된 시간
+
+nano practice.txt
+
+cat practice.txt
+
+cat hello
+
+rm practice.txt
+
+# hello 는 지워지지 않음
+# 
+
+ls -al
+
+cat hello
+
+nano practice.txt
+
+nano hard
+
+cat hard
+
+ln hard hard2
+
+ln hard hard3
+
+cat hard
+
+cat hard2
+
+cat hard3
+

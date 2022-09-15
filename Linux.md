@@ -92,3 +92,13 @@
 
 - 하드링크와 소프트링크
   - 하드링크(hard-link) vs 소프트링크(soft-link == symbolic link == symlink)
+
+- 사용자와 그룹
+  - system administrator; super user; root
+
+- 파일 소유권
+  - 파일의 소유권(ownership)
+
+- 파일 권한
+  - 파일 접근 권한(permission or mode)
+  - ![jpg_1](./img/file%20permission.png)
