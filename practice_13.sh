@@ -8,3 +8,13 @@ ps
 ps -f
 
 ps -ef
+
+echo $?
+
+ls /asdfjklsdlfjskld
+
+kill --help
+
+kill -l
+
+kill -TERM 
