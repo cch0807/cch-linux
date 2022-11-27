@@ -236,3 +236,28 @@
   - [n]<word
     - 파일의 내용이 지정된 스트림(n)으로 리디렉션
     - n이 생략되면 표준 입력(fd 0)을 의미
+
+ - Here documents: <<
+  - [command] <<[-]DELIM
+  - ...
+  - DELIM
+
+  - 프로그램의 표준 입력으로 multi-line string 전달
+  - 코드 블록의 내용이 임시 파일로 저장됐다가 프로그램의 표준 입력으로 리디렉션
+  - DELIM은 다른 단어로 변경 가능(의미상 EOF, END 등)
+  - <<- 사용하면 라인 앞쪽의 tab 문자가 제거됨.
+
+- Here strings: <<<
+  - [command] <<< word
+  - Here document의 한 줄 버전
+
+- 파이프라인(pipeline)
+  - 프로그램 간 상호작용
+  - command1 [ | command2 ] ...
+    - command1의 표준 출력이 command2의 표준 입력으로 연결됨
+  - command1 [|& command2 ] ...
+    - command1의 표준 출력과 표준 에러가 command2의 표준 입력으로 연결됨
+  - 각 command는 sub-shell에서 실행됨
+  - 전체 파이프라인의 exit status는 마지막 실행 커맨드의 exit status임
+  - pipefail 옵션이 설정되어 있다면 실패한 커맨드가 존재하면 실패로 처리됨.
+
