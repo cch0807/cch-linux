@@ -6,3 +6,4 @@
 - declare
     - -i : treat as an integer(integer type의 할당만 가능)
     - -a : array
+
