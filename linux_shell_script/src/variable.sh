@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ABC="Hello World"
 echo "$ABC" # Hello World
 
