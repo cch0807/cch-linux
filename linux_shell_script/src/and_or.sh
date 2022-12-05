@@ -11,7 +11,27 @@ if [ "$A" -gt "$B" ]; then
     fi
 fi
 
+#---------------------------------------------------
 if [ "$A" -gt "$B" -a "$A" -gt "$C" ]; then
+    echo "\$A is the max"
+else
+    echo "not A"
+fi
+
+if [ "$A" -gt "$B"] && ["$A" -gt "$C" ]; then
+    echo "\$A is the max"
+else
+    echo "not A"
+fi
+
+if [[ "$A" -gt "$B" && "$A" -gt "$C" ]]; then
+    echo "\$A is the max"
+else
+    echo "not A"
+fi
+#---------------------------------------------------
+
+if [ "$A" -gt "$B" -o "$A" -gt "$C" ]; then
     echo "\$A is the max"
 else
     echo "not A"
