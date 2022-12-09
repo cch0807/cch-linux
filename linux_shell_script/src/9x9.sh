@@ -9,7 +9,9 @@ do
             echo "$i x $j = $result"
         else
             echo "$i x $j = ..... nope"
-        echo "$i x $j = $result"  
+            break
+            # echo "$i x $j = $result"  
         fi
     done
+    echo ""
 done
