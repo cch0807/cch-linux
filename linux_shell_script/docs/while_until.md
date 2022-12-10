@@ -13,3 +13,11 @@
     do
         commands...
     done
+
+# break/continue
+
+- break
+    - 반복문 즉시 종료
+
+- continue
+    - 반복문의 시작부분으로 건너뛰기
