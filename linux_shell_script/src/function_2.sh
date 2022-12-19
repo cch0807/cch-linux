@@ -9,7 +9,6 @@ function test1()
         echo "param2 is missing"
     fi
 
-
     param1="$1"
     param2="$2"
     echo "this is test1"
