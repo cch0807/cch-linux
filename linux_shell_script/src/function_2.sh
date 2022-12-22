@@ -13,7 +13,11 @@ function test1()
     param2="$2"
     echo "this is test1"
     echo "first param is $param1"
-    echo "second param is $param2"
+    echo "second param is $param2"\
+    
+    return 0
 }
 
 test1 "hello" "world"
+result="$?"
+echo "test1 returns $result"
